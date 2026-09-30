@@ -14,7 +14,9 @@ A production-quality, dependency-free static homepage:
 - **Semantic, accessible HTML** with a sensible heading hierarchy, skip link,
   ARIA labels, keyboard-operable controls and visible focus states.
 - **Native modern CSS** (design tokens, CSS grid, `backdrop-filter`, fluid type).
-  Dark-locked enterprise theme, one electric-blue accent, one radius scale.
+  Light enterprise theme (off-white surfaces, near-black ink), one electric-blue
+  accent, one radius scale. Theme colours are driven by CSS variables in
+  `:root`, so the palette can be retuned from one place.
 - **Vanilla JavaScript** for motion and interactivity. No framework, no runtime
   dependencies, so it loads fast and is trivial to review, host and hand off.
 - **Self-hosted fonts** (Space Grotesk, Manrope, JetBrains Mono) under
