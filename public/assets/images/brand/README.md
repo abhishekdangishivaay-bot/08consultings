@@ -1,13 +1,11 @@
 # Brand assets — 08 Consultings
 
-The official 08 Consultings logo (supplied by the client) is stored here and used
-across the site (nav and footer), rendered via `<picture>` with a WEBP source and
-a PNG fallback.
+The official 08 Consultings logo is used across the site (nav and footer).
 
 | file | usage |
 |------|-------|
-| `08-consultings-logo.png` | official logo, PNG (451 x 103, transparent) |
-| `08-consultings-logo.webp` | same logo, WEBP (smaller, preferred by the browser) |
+| `08-consultings-logo.svg` | official vector logo, used everywhere (scales crisply) |
+| `08-consultings-logo.png` | raster copy of the same logo (archival / fallback) |
 
 The favicon (`/favicon.png`) is derived from the "08" mark of this logo.
 

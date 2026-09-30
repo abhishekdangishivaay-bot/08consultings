@@ -60,11 +60,16 @@ The **official 08 Consultings logo** (supplied by the client) is stored in
 applied consistently to buttons, links, charts and the data visuals. See
 `public/assets/images/brand/README.md` to update the logo later.
 
-> Note on photography: this build environment has no outbound web access, so
-> stock or site photography could not be fetched here. The page leans on original
-> data visuals (network, charts, dashboards) instead. To add real photos, drop
-> image files into the repo (or enable network access) and they can be slotted
-> into the hero, problem, why and insights sections.
+### Imagery
+
+- **Logo:** the official vector logo (`public/assets/images/brand/08-consultings-logo.svg`)
+  in the nav and footer.
+- **Client logos:** the real client wall (`public/assets/images/clients/`) in the
+  Clients section, shown in monochrome and revealing full colour on hover.
+- **Photography:** license-clean editorial photos (Unsplash, free for commercial
+  use) in the Insights article covers and the "Why 08" section
+  (`public/assets/images/photos/`). The hero, framework, AI and dashboard sections
+  keep their original data visuals rather than stock imagery.
 
 ## Content notes (factual accuracy)
 
