@@ -1,0 +1,10 @@
+# dependencies (none required at runtime; build/tooling only)
+node_modules/
+npm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
