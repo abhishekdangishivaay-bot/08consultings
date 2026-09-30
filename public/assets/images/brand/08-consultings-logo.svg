@@ -1,9 +1,0 @@
-<svg width="228" height="40" viewBox="0 0 228 40" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="08 Consultings (placeholder logo)">
-  <rect x="1.25" y="1.25" width="37.5" height="37.5" rx="9" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="1.5"/>
-  <path d="M9 27.5L16 20.5L21 24L31 12.5" stroke="#4C7DFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="9" cy="27.5" r="2.4" fill="#4C7DFF"/>
-  <circle cx="16" cy="20.5" r="2.4" fill="#7CA0FF"/>
-  <circle cx="21" cy="24" r="2.4" fill="#7CA0FF"/>
-  <circle cx="31" cy="12.5" r="3.1" fill="#4C7DFF"/>
-  <text x="52" y="26.5" font-family="'Space Grotesk','Segoe UI',Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="0.5" fill="#FFFFFF">08<tspan font-weight="500" fill="#E7ECF5"> Consultings</tspan></text>
-</svg>

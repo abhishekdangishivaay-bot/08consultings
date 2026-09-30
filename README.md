@@ -51,20 +51,20 @@ python3 -m http.server 8080
 Opening `index.html` directly over `file://` works too, but a local server is
 recommended so the self-hosted fonts load without browser CORS restrictions.
 
-## Logo — action needed
+## Logo & brand colour
 
-The brief asked for the **real 08 Consultings logo** to be downloaded from
-`https://www.08consultings.com/` and stored in
-`public/assets/images/brand/`. In this build environment, outbound network
-access to that domain is blocked by the organization's egress policy (the proxy
-returns `403` for the site and every non-package host), so the genuine logo file
-could not be retrieved.
+The **official 08 Consultings logo** (supplied by the client) is stored in
+`public/assets/images/brand/` as PNG + WEBP and used in the nav and footer via
+`<picture>`. The site's accent is taken straight from the logo, a purple
+(`#8024BF`) to magenta (`#C40AB0`) gradient, defined once in the stylesheet and
+applied consistently to buttons, links, charts and the data visuals. See
+`public/assets/images/brand/README.md` to update the logo later.
 
-The site currently uses a **clean, clearly-labelled placeholder mark** (a simple
-geometric analytics glyph plus the company name in the brand typeface), rendered
-inline in the nav and footer. To drop in the real logo, follow
-`public/assets/images/brand/README.md` — filenames and layout hooks are already
-in place, so it is a direct swap.
+> Note on photography: this build environment has no outbound web access, so
+> stock or site photography could not be fetched here. The page leans on original
+> data visuals (network, charts, dashboards) instead. To add real photos, drop
+> image files into the repo (or enable network access) and they can be slotted
+> into the hero, problem, why and insights sections.
 
 ## Content notes (factual accuracy)
 
