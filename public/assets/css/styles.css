@@ -721,7 +721,7 @@ p{margin:0}
 .svc{box-shadow:none}
 
 .dotnet{background:var(--bg-1);border-block:1px solid var(--line)}
-.dotnet__inner{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,64px);align-items:center}
+.dotnet__inner{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(32px,5vw,64px);align-items:stretch}
 .dotnet h2{font-size:clamp(1.7rem,1.2rem + 1.9vw,2.6rem);max-width:19ch}
 .dotnet__lead{margin-top:18px;color:var(--ink-2);max-width:52ch}
 .dotnet__list{margin-top:26px;display:grid;grid-template-columns:1fr 1fr;gap:12px 24px;list-style:none;padding:0}
@@ -731,13 +731,14 @@ p{margin:0}
 .chip{font-family:var(--font-mono);font-size:.76rem;color:var(--ink-2);background:var(--surface);
   border:1px solid var(--line);border-radius:7px;padding:.42em .7em;letter-spacing:.01em}
 .dotnet__cta{margin-top:28px}
-.dotnet__media .shot img{aspect-ratio:4/3}
+.dotnet__media,.about__media{display:flex}
+.dotnet__media .shot,.about__media .shot{width:100%;height:100%}
 
-.about__inner{display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(32px,5vw,64px);align-items:center}
+.about__inner{display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(32px,5vw,64px);align-items:stretch}
 .about h2{font-size:clamp(1.7rem,1.2rem + 1.9vw,2.6rem)}
 .about__lead{margin-top:16px;color:var(--ink-2);max-width:54ch}
 .about__lead + .about__lead{margin-top:14px}
-.about__media .shot img{aspect-ratio:4/3}
+
 .about__points{margin-top:28px;display:flex;flex-direction:column;gap:2px}
 .about__points div{display:flex;align-items:center;gap:12px;padding:14px 0;border-top:1px solid var(--line)}
 .about__points svg{width:20px;height:20px;color:var(--accent);flex:none}
@@ -748,6 +749,9 @@ p{margin:0}
   .dotnet__inner,.about__inner{grid-template-columns:1fr;gap:40px}
   .about__media{order:-1;max-width:600px}
   .dotnet__media{max-width:600px}
+  .dotnet__media,.about__media{display:block}
+  .dotnet__media .shot,.about__media .shot{height:auto}
+  .dotnet__media .shot img,.about__media .shot img{height:auto;aspect-ratio:16/10}
 }
 @media (max-width:560px){
   .dotnet__list{grid-template-columns:1fr}
